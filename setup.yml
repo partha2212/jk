@@ -1,0 +1,7 @@
+- name: Deploy Maven Artifact
+  hosts: local
+  become: true
+  tasks:
+    - name: Create deployment directory
+      debug:
+        msg: "Helloowww 8th pgm"
